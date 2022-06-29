@@ -36,6 +36,7 @@ Printing the case should be simple but takes some time. No need for supports. I 
 Follow the [QMK guide](https://docs.qmk.fm/#/hand_wire?id=soldering-the-diodes) for hand-wiring and soldering keyboards.
 
 Wiring diagrams
+
 ![Left](images/left-wiring.png)
 ![Right](images/right-wiring.png)
 
