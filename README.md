@@ -45,32 +45,24 @@ Take note that on the right side, pin `B3` is connected to Insert->Backslash->En
 The pin for serial communication between the left and right Arduinos is `D3`
 
 ### Flashing
-There are two arduinos used in total, one for each side. Each arduino needs to be flashed with their own qmk firmware.
-
-To do this you will need a local installation of [qmk-firmware](https://github.com/qmk/qmk_firmware/). 
-
-Also make sure to install qmk by running
-
-```bash
-pip install qmk
-```
+There are two Arduinos used in total, one for each side. Each arduino needs to be flashed with their own qmk firmware. To do this you will need a local installation of [qmk-firmware](https://github.com/qmk/qmk_firmware/). 
 
 To start flashing you keyboard, copy the *TSExt* folder from the *firmware* folder to *qmk_firmware/keyboards*. The directory structure should be
 
 ```
 qmk_firmware
-   |
-   |-- keyboards
-          |
-          |-- TSExt
+|
+|-- keyboards
+    |
+    |-- TSExt
 ```
 
-Then connect the left arduino and run the following command
+To flash the left Arduino
 ```
 make TSExt:avrdude-split-left 
 ```
 
-then for the right
+and the right one
 ```
 make 000ts85:avrdude-split-right
 ```
