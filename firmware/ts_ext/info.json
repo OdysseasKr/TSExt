@@ -1,6 +1,6 @@
 {
     "manufacturer": "OdysseasKr",
-    "keyboard_name": "TSExt",
+    "keyboard_name": "ts_ext",
     "maintainer": "OdysseasKr",
     "bootloader": "caterina",
     "diode_direction": "COL2ROW",
@@ -71,8 +71,8 @@
                 { "label": "F10", "matrix": [6, 3], "w": 1, "x": 10, "y": 0 },
                 { "label": "F11", "matrix": [6, 4], "w": 1, "x": 11, "y": 0 },
                 { "label": "F12", "matrix": [6, 5], "w": 1, "x": 12, "y": 0 },
-                { "label": "PrtSc", "matrix": [6, 6], "w": 1, "x": 13, "y": 0 },
-                { "label": "Insert", "matrix": [6, 7], "w": 1, "x": 14, "y": 0 },
+                { "label": "Home", "matrix": [6, 6], "w": 1, "x": 13, "y": 0 },
+                { "label": "End", "matrix": [6, 7], "w": 1, "x": 14, "y": 0 },
                 { "label": "Delete", "matrix": [6, 8], "w": 1, "x": 15, "y": 0 },
 
                 { "label": "7", "matrix": [7, 0], "w": 1, "x": 7, "y": 1 },
@@ -83,7 +83,7 @@
                 { "label": "+", "matrix": [7, 5], "w": 1, "x": 12, "y": 1 },
                 { "label": "Backspace", "matrix": [7, 6], "w": 2, "x": 13, "y": 1 },
                 { "label": "NOKEY", "matrix": [7, 7], "w": 0, "x": 13, "y": 1 },
-                { "label": "Home", "matrix": [7, 8], "w": 1, "x": 15, "y": 1 },
+                { "label": "PrtSc", "matrix": [7, 8], "w": 1, "x": 15, "y": 1 },
 
                 { "label": "Y", "matrix": [8, 0], "w": 1, "x": 6.5, "y": 2 },
                 { "label": "U", "matrix": [8, 1], "w": 1, "x": 7.5, "y": 2 },
@@ -93,7 +93,7 @@
                 { "label": "[", "matrix": [8, 5], "w": 1, "x": 11.5, "y": 2 },
                 { "label": "]", "matrix": [8, 6], "w": 1, "x": 12.5, "y": 2 },
                 { "label": "backslash", "matrix": [8, 7], "w": 1.5, "x": 13.5, "y": 2 },
-                { "label": "End", "matrix": [8, 8], "w": 1, "x": 15, "y": 2 },
+                { "label": "Insert", "matrix": [8, 8], "w": 1, "x": 15, "y": 2 },
 
                 { "label": "H", "matrix": [9, 0], "w": 1, "x": 6.75, "y": 3 },
                 { "label": "J", "matrix": [9, 1], "w": 1, "x": 7.75, "y": 3 },

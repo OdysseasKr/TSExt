@@ -3,11 +3,11 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
         -----------------------------------------------------------------------------------------------------
-        | Esc | F1 | F2 | F3 | F4 | F5 | F6 |     | F7 | F8 | F9 | F10 | F11 | F12 | PrtSc | Insert | Delete |
+        | Esc | F1 | F2 | F3 | F4 | F5 | F6 |         | F7 | F8 | F9 | F10 | F11 | F12 | Home | End | Delete |
         ------------------------------------------------------------------------------------------------------
-        | ~ | ! | @ | # | $ | % | ^ |                             | & | * | ( | ) | _ | + | Backspace | Home |
+        | ~ | ! | @ | # | $ | % | ^ |                            | & | * | ( | ) | _ | + | Backspace | PrtSc |
         ------------------------------------------------------------------------------------------------------
-        | Tab | Q | W | E | R | T |                                    | Y | U | I | O | P | { | } | | | End |
+        | Tab | Q | W | E | R | T |                                 | Y | U | I | O | P | { | } | | | Insert |
         ------------------------------------------------------------------------------------------------------
         | Caps Lock | A | S | D | F | G |                             | H | J | K | L | : | " | Enter | PgUp |
         ------------------------------------------------------------------------------------------------------
@@ -24,9 +24,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LSFT, KC_Z,   KC_X,   KC_C,   KC_V,    KC_B,  
         KC_LCTL, MO(1),   KC_LEFT_GUI,   KC_LALT,   KC_SPC, 
 
-        KC_F7,   KC_F8,  KC_F9,  KC_F10,  KC_F11,  KC_F12, KC_PSCR, KC_INSERT, KC_DEL,
-        KC_7, KC_8, KC_9, KC_0, KC_MINUS, KC_EQUAL, KC_BSPC, _______, KC_HOME,
-        KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC, KC_BACKSLASH, KC_END ,
+        KC_F7,   KC_F8,  KC_F9,  KC_F10,  KC_F11,  KC_F12, KC_HOME, KC_END, KC_DEL,
+        KC_7, KC_8, KC_9, KC_0, KC_MINUS, KC_EQUAL, KC_BSPC, _______, KC_PSCR,
+        KC_Y, KC_U, KC_I, KC_O, KC_P, KC_LBRC, KC_RBRC, KC_BACKSLASH, KC_INSERT ,
         KC_H, KC_J, KC_K, KC_L, KC_SEMICOLON, KC_QUOTE, _______, KC_ENTER, KC_PGUP,
         KC_N, KC_M, KC_COMMA, KC_DOT, KC_SLASH, KC_RSFT, _______, KC_UP, KC_PGDN,
         KC_SPACE, _______, KC_RALT, _______, KC_APP, KC_LEFT, _______, KC_DOWN, KC_RIGHT
