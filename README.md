@@ -3,6 +3,8 @@
 
 This is my attempt at designing an extended version of the [TS65](https://github.com/mohitg11/TS65AVR). The main motivation is that I wanted more keys and the ability to hand solder everything instead of making a PCB. The keyboard is powered by [QMK](https://qmk.fm/).
 
+Please note that this is a rough design that I made for personal use and most probably you will need to adjust a bit (adjust screw sizes, make holes for connectors etc).
+
 [Keyboard layout permalink](http://www.keyboard-layout-editor.com/##@@=Esc&=F1&=F2&=F3&=F4&=F5&=F6&_x:1%3B&=F7&=F8&=F9&=F10&=F11&=F12&=PrtSc&=Insert&=Delete%3B&@=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&_x:1%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&_w:2%3B&=Backspace&=Home%3B&@_w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&_x:1%3B&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C&=End%3B&@_w:1.75%3B&=Caps%20Lock&=A&=S&=D&=F&=G&_x:1%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_w:2.25%3B&=Enter&=PgUp%3B&@_w:2.25%3B&=Shift&=Z&=X&=C&=V&=B&_x:1%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_w:1.75%3B&=Shift&=%E2%86%91&=PgDn%3B&@_w:1.25%3B&=Ctrl&_w:1.25%3B&=Fn&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:2.25%3B&=&_x:1&w:2.75%3B&=&_a:4&w:1.25%3B&=Alt&_w:1.25%3B&=Win&_x:0.5%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92)
 
 ![Layout](images/layout.png)
@@ -14,6 +16,8 @@ The changes I have made are:
 - Redesigned the plate to allow for switch mounting
 - Added some extra space on the top of the keyboard to house all the electronics
 - Added an Fn key
+
+Some models are adaptation from this [design on Thingiverse](https://www.thingiverse.com/thing:3027838) made by [Adam Coddington](https://www.thingiverse.com/coddingtonbear).
 
 ## How to build
 ### Materials
