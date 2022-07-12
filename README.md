@@ -3,7 +3,7 @@
 
 This is my attempt at designing an extended version of the [TS65](https://github.com/mohitg11/TS65AVR). The main motivation is that I wanted more keys and the ability to hand solder everything instead of making a PCB. The keyboard is powered by [QMK](https://qmk.fm/).
 
-[!Built keyboard](images/built-keyboard.jpg)
+[Built keyboard](images/built-keyboard.jpg)
 
 Please note that this is a rough design that I made for personal use and most probably you will need to adjust a bit (adjust screw sizes, make holes for connectors etc).
 
