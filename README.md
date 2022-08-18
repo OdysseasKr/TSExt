@@ -33,14 +33,12 @@ Some models are adaptation from this [design on Thingiverse](https://www.thingiv
 7. 85 diodes 1n4148 (or equivalent)
 8. 7mm wider rotary encoder
 
-### Adjusting to your design
-
 ### Printing the case
 Printing the case should be simple but takes some time. No need for supports. I recommend adding a brim and lowering the fan to prevent warping.
 
 **Top parts**: I used 100% infill to reduce flex as much as possible
 
-**Bottom parts**: anything above 50% should work ok. Print due to the shape of the print the print time is almost the same regardless of the infill.
+**Bottom parts**: anything above 50% should work ok. The print time is almost the same regardless of the infill.
 
 ### Soldering
 Follow the [QMK guide](https://docs.qmk.fm/#/hand_wire?id=soldering-the-diodes) for hand-wiring and soldering keyboards.
@@ -50,14 +48,14 @@ Wiring diagrams
 ![Left](images/left-wiring.png)
 ![Right](images/right-wiring.png)
 
-Take note that on the right side, pin `B3` is connected to Insert->Backslash->Enter->Up->Down and *NOT* backspace.
+Note that on the right side, pin `B3` is connected to `Insert->Backslash->Enter->Up->Down` and *NOT* backspace.
 
 The pin for serial communication between the left and right Arduinos is `D3`
 
-The rotary encoder is connected to pins B2 and B6 on the left arduino. 
+The rotary encoder on the left half is connected to pins `B2` and `B6`. 
 
 ### Flashing
-There are two Arduinos used in total, one for each side. Each arduino needs to be flashed with their own qmk firmware. To do this you will need a local installation of [qmk-firmware](https://github.com/qmk/qmk_firmware/). 
+There are two Arduinos in total, one for each side. Each arduino needs to be flashed with their own qmk firmware. To do this you will need a local installation of [qmk-firmware](https://github.com/qmk/qmk_firmware/). 
 
 To start flashing you keyboard, copy the *TSExt* folder from the *firmware* folder to *qmk_firmware/keyboards*. The directory structure should be
 
