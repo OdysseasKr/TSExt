@@ -69,11 +69,11 @@ qmk_firmware
 
 To flash the left Arduino
 ```
-make TSExt:avrdude-split-left 
+make ts_ext:avrdude-split-left 
 ```
 
 and the right one
 ```
-make 000ts85:avrdude-split-right
+make ts_ext:avrdude-split-right
 ```
 
