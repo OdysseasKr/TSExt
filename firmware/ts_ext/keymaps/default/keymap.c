@@ -1,7 +1,7 @@
 #include QMK_KEYBOARD_H
 
 bool encoder_update_user(uint8_t index, bool clockwise) {
-    if (index == 0) {
+    if (index == 0) { /* First encoder */
         if (clockwise) {
             tap_code_delay(KC_VOLU, 10);
         } else {
@@ -10,6 +10,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     return false;
 }
+
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /*
@@ -52,9 +53,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
         _______,_______,_______,_______,_______,_______,_______,_______,_______,
         _______,_______,_______,_______,_______,_______,_______,_______,_______,
-        _______,_______,_______,_______,_______,_______,_______,_______,_______,
-        _______,_______,_______,_______,_______,_______,_______,_______,_______,
-        _______,_______,_______,_______,_______,_______,_______,KC_PGUP,_______,
-        _______,_______,KC_RCTL,_______,_______,KC_HOME,_______,KC_PGDN,KC_END
+        KC_KP_7,KC_KP_8,KC_KP_9,_______,_______,_______,_______,_______,_______,
+        KC_KP_4,KC_KP_5,KC_KP_6,_______,_______,_______,_______,_______,_______,
+        KC_KP_1,KC_KP_2,KC_KP_3,_______,_______,_______,_______,KC_PGUP,_______,
+        KC_KP_0,_______,KC_RCTL,_______,_______,KC_HOME,_______,KC_PGDN,KC_END
     )
 };
