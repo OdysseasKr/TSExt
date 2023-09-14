@@ -23,6 +23,8 @@
 #define EE_HANDS
 #define MATRIX_ROWS 12
 #define MATRIX_COLS 9
+// The following line is only for my own build due to quirks in my pinout
+// #define MATRIX_ROW_PINS { D2, B3, D0, D4, C6, D7 }
 #define MATRIX_ROW_PINS { D2, D1, D0, D4, C6, D7 }
 #define MATRIX_COL_PINS { E6, B4, B5, F5, F6, F7, B1 }
 #define MATRIX_ROW_PINS_RIGHT { D2, D1, D0, D4, C6, D7 }
